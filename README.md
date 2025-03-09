@@ -22,9 +22,9 @@ export XDG_SESSION_DESKTOP="termux"
 ```
 Now, execute danifetch.sh file with
 ```
-./danifetch.sh
+./danifetch_termux.sh
 ```
 or
 ```
-bash danifetch.sh
+bash danifetch_termux.sh
 ```
