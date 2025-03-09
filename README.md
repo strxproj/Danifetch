@@ -12,3 +12,19 @@ Occasionally danifetch gets updates because i either come up with smth or a kind
 First make sure you have git installed, afterwards do *"git clone https://github.com/ddauni/Danifetch"*
 
 Then *"cd"* to *"Danifetch"* and finally run *"sudo make install"*
+
+**How to run on Termux (nonroot)?**
+
+First, set the variables for user and session desktop with
+```
+export USER="enter username here"
+export XDG_SESSION_DESKTOP="termux"
+```
+Now, execute danifetch.sh file with
+```
+./danifetch.sh
+```
+or
+```
+bash danifetch.sh
+```
